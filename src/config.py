@@ -1,5 +1,7 @@
-# 모든 하이퍼파라미터를 dict 하나에 보관
-CONFIG = {
+from typing import Any
+
+# All hyperparameters kept in a single dict
+CONFIG: dict[str, Any] = {
     "dataset_dir": "BrainMRI/multi_class_dataset",
     "img_height": 224,
     "img_width": 224,
