@@ -1,10 +1,10 @@
-# Brain MRI Tumor Classification 🧠
+# Brain MRI Tumor Classification
 
 **[한국어 버전](./README.md)**
 
 A deep learning pipeline designed to classify brain MRI images into four categories: **Glioma, Meningioma, Pituitary tumor, and Healthy**. This project leverages transfer learning with EfficientNet-B0 and a specialized 2-stage training strategy to achieve high diagnostic accuracy.
 
-## 🚀 Key Features
+## Key Features
 
 - **EfficientNet-B0 Backbone**: Utilizes a pre-trained state-of-the-art model for robust feature extraction.
 - **2-Stage Training Strategy**:
@@ -14,7 +14,7 @@ A deep learning pipeline designed to classify brain MRI images into four categor
 - **Automated Pipeline**: End-to-end support from data augmentation and preprocessing to evaluation with Confusion Matrices.
 - **Experimental Tracking**: Integrated with TensorBoard for real-time monitoring of loss and accuracy.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: TensorFlow 2.10+, Keras
 - **Model**: EfficientNet-B0 (Transfer Learning)
@@ -22,7 +22,7 @@ A deep learning pipeline designed to classify brain MRI images into four categor
 - **Metrics**: Scikit-learn (Precision, Recall, F1-Score)
 - **Visualization**: Matplotlib, Seaborn, TensorBoard
 
-## 🏗 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -33,7 +33,7 @@ src/
 └── evaluate.py     # Metrics & Confusion Matrix generation
 ```
 
-## 🧠 Technical Highlights
+## Technical Highlights
 
 ### 1. Fine-tuning with "Unfreeze" Strategy
 To preserve the powerful general features of EfficientNet while adapting to medical imaging nuances, I implemented a strategy to unfreeze only the top 20 layers during Stage 2. This prevents catastrophic forgetting and ensures stable convergence.
@@ -43,7 +43,7 @@ Medical images require careful handling. The pipeline includes:
 - Standardized resizing to 224x224.
 - Dynamic data augmentation (Flip, Rotation, Zoom, Contrast) to handle limited dataset sizes and improve generalization.
 
-## 🏁 Getting Started
+## Getting Started
 
 ### Installation
 ```bash
@@ -63,7 +63,7 @@ python src/train.py
 python src/evaluate.py --model best_effb0.keras
 ```
 
-> 💡 **Need more details?**
+>  **Need more details?**
 > For hyperparameters, dynamic data augmentation strategies, and architectural specifics, please refer to the [Detailed Manual (DETAILS.en.md)](./DETAILS.en.md).
 
 ---
