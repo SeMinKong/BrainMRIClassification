@@ -2,6 +2,9 @@
 
 **[English Version](./README.en.md)**
 
+**DEMO**
+<img width="2700" height="1500" alt="demo_10_images" src="https://github.com/user-attachments/assets/6628d795-cd0d-424b-99ce-9ebbda64e1c9" />
+
 뇌 MRI 영상을 분석하여 **신경교종(Glioma), 수막종(Meningioma), 뇌하수체 종양(Pituitary tumor), 정상(Healthy)** 4개 클래스로 분류하는 딥러닝 파이프라인입니다. EfficientNet-B0 모델을 활용한 전이학습(Transfer Learning)과 정교한 2단계 학습 전략을 통해 높은 진단 정확도를 확보하는 데 주력했습니다.
 
 ## 주요 특징
