@@ -63,5 +63,8 @@ python src/train.py
 python src/evaluate.py --model best_effb0.keras
 ```
 
+> 💡 **Need more details?**
+> For hyperparameters, dynamic data augmentation strategies, and architectural specifics, please refer to the [Detailed Manual (DETAILS.en.md)](./DETAILS.en.md).
+
 ---
 Developed for Medical AI Research & Capstone Projects.

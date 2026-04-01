@@ -63,5 +63,8 @@ python src/train.py
 python src/evaluate.py --model best_effb0.keras
 ```
 
+> 💡 **더 자세한 정보가 필요하신가요?**
+> 상세한 모델 아키텍처 설계, 하이퍼파라미터 파인튜닝 가이드 및 데이터 증강 전략은 [상세 매뉴얼(DETAILS.md)](./DETAILS.md)에서 확인하실 수 있습니다.
+
 ---
 의료 AI 연구 및 학습 목적으로 개발되었습니다.
