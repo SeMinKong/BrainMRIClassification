@@ -6,9 +6,9 @@ from tensorflow.keras.callbacks import (
     ModelCheckpoint,
     TensorBoard,
 )
-from src.config import CONFIG
-from src.data_loader import get_datasets
-from src.model import build_model
+from config import CONFIG
+from data_loader import get_datasets
+from model import build_model
 
 logger = logging.getLogger(__name__)
 

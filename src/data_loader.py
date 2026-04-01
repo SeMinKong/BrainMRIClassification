@@ -1,7 +1,7 @@
 import logging
 import tensorflow as tf
 from tensorflow.keras.applications.efficientnet import preprocess_input
-from src.config import CONFIG
+from config import CONFIG
 
 logger = logging.getLogger(__name__)
 

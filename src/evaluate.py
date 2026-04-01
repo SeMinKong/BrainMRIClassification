@@ -9,8 +9,8 @@ import sklearn.metrics as skm
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
-from src.config import CONFIG
-from src.data_loader import get_datasets
+from config import CONFIG
+from data_loader import get_datasets
 
 logger = logging.getLogger(__name__)
 
